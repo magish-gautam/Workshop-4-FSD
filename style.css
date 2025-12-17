@@ -1,0 +1,69 @@
+ 1 body {
+ 2     font-family: "Inter", sans-serif;
+ 3     background: linear-gradient(135deg, #0f172a, #1e293b);
+ 4     margin: 0;
+ 5     padding: 0;
+ 6     display:flex;
+ 7     justify-content:center;
+ 8     align-items:center;
+ 9     height:100vh;
+10     color:white;
+11 }
+12 
+13 .container {
+14     width: 100%;
+15     max-width: 420px;
+16     padding: 20px;
+17 }
+18 
+19 .card {
+20     background: rgba(255,255,255,0.05);
+21     padding: 28px;
+22     border-radius: 16px;
+23     box-shadow: 0 8px 30px rgba(0,0,0,0.4);
+24     backdrop-filter: blur(6px);
+25 }
+26 
+27 .card h2 {
+28     text-align:center;
+29     color:#a78bfa;
+30 }
+31 
+32 label {
+33     display:block;
+34     margin-bottom:6px;
+35 }
+36 
+37 input {
+38     width:100%;
+39     padding:12px;
+40     border-radius:10px;
+41     border:0;
+42     background:rgba(255,255,255,0.1);
+43     color:white;
+44     margin-bottom:10px;
+45 }
+46 
+47 button {
+48     width:100%;
+49     padding:12px;
+50     border:0;
+51     background:linear-gradient(90deg,#7c3aed,#06b6d4);
+52     color:white;
+53     border-radius:10px;
+54     cursor:pointer;
+55 }
+56 
+57 .error {
+58     color:#ff6b6b;
+59     font-size:13px;
+60 }
+61 
+62 .success {
+63     background:rgba(34,197,94,0.2);
+64     color:#4ade80;
+65     padding:10px;
+66     border-left:4px solid #4ade80;
+67     margin-bottom:10px;
+68     border-radius:6px;
+69 }
